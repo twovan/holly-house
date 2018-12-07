@@ -26,7 +26,7 @@
                 <p class="weui-media-box__desc">仅限男士 </p>
                 <br>
                 <h5>规则提醒： </h5>
-                <p class="weui-media-box__desc">·此卡仅限本人在合理屋银泰店及天地店使用</p>
+                <p class="weui-media-box__desc">·此卡仅限本人在合理屋银泰店、天地店及天河机场店使用</p>
                 <p class="weui-media-box__desc">·仅限剪发项目使用(此项目不包含洗发)其他项目需另付费</p>
                 <p class="weui-media-box__desc">·此卡不与其他优惠活动同时进行</p>
                 <p class="weui-media-box__desc">·如遇特殊节假日需参照店内标准另加收服务费</p>

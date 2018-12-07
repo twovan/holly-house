@@ -56,6 +56,8 @@ Route::group([
     $router->get('logout', ['as' => 'index.logout', 'uses' => 'PublicController@logout']);
     $router->get('web_store/{id}', 'PublicController@store');
     $router->get('showstore/{id}', 'PublicController@showstore');
+    $router->get('showstore_novideo/{id}', 'PublicController@showstore_novideo');
+
     $router->get('video', ['as' => 'index.video.video', 'uses' => 'PublicController@video']);
     $router->get('order', ['as' => 'index.order.index', 'uses' => 'OrderController@index']);
     $router->get('order/image/{id}', ['as' => 'index.order.image', 'uses' => 'OrderController@image']);

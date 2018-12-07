@@ -63,6 +63,15 @@ class PublicController extends Controller
 		]);
     }
 
+
+    //店铺展示-无视频
+    public function showstore_novideo($id,Request $request){
+        return view('index.public.showstore_novideo', [
+            'id' => $id,
+            'title_name' => '店铺展示',
+        ]);
+    }
+
     //合理屋视频介绍
     public function video(){
         return view('index.video.video');

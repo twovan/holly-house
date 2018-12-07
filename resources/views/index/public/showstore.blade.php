@@ -9,7 +9,7 @@
     }
 </style>
 @section('body')
-    <video muted id="myvideo" width="100%" height="auto" controls="controls">
+    <video muted id="myvideo" width="100%" height="auto" controls="controls" loop="loop">
         你的浏览器不支持HTML5播放此视频
         <span style="white-space:pre">    </span><!-- 支持播放的文件格式 -->
         <source src="{{asset('media/media_6.mp4')}}" type='video/mp4'/>
@@ -39,13 +39,13 @@
 
         $(document).ready(function () {
             //video.play();
-            playloop();
+            // playloop();
         });
 
 
         video.addEventListener('ended', function () {
-            console.log('第' + curr + '个视屏播放结束');
-            playloop();
+            console.log('第' + curr+1 + '个视屏播放结束');
+            // playloop();
         });
 
         function playloop() {
